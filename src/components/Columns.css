@@ -1,0 +1,16 @@
+.Columns{
+    position: fixed;
+    top: 120px;
+    height: calc(100vh - 120px);
+    width: 100%;
+    
+    background-color: #069370;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    overflow-y: scroll;
+}
+@media (max-width:500px){
+    .Columns{
+        top:60px;
+        height: calc(100vh - 60px);
+    }
+}

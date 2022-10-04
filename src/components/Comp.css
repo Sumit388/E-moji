@@ -1,0 +1,53 @@
+.Comp{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: #069370;
+}
+.Comp .container{
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    height: 80px;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.CompEmoji{
+    font-size: 40px;
+    width: 10%;
+}
+.CompName{
+    font-size: 25px;
+    width: 40%;
+}
+.CompDescription{
+    font-size: 25px;
+    width: 50%;
+}
+@media (max-width:500px){
+    .Comp .container{
+        left: 0;
+    }
+    .CompEmoji{
+        position: absolute;
+        left: 7px;
+        font-size: 30px;
+        width: 5%;
+    }
+    .CompName{
+        position: absolute;
+        left: 20%;
+        font-size: 15px;
+        max-width: 60%;
+    }
+    .CompDescription{
+       display: none;
+    }
+}

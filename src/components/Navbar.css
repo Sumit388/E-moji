@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+
+.Navbar {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+header {
+    position: fixed;
+    max-width: 1300px;
+    width: 96%;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.Navbar .logo {
+    color: #069370;
+    height: 60px;
+    font-size: 20px;
+    line-height: 70px;
+    padding: 0 20px;
+    background: white;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 800;
+    text-decoration: none;
+}
+.Navbar .serchSec{
+    position: relative;
+    height: 40px;
+    margin-top: 15px;
+    float: left;
+}
+.Navbar .Inputval{
+    color: #069370;
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: 800;
+    padding-left: 50px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+.Navbar .searchIcon{
+    position: absolute;
+    color: #069370;
+    left: 5px;
+    top: 5px;
+    font-size: 20px;
+    padding-top: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-right: 3px solid #000000;
+}
+.Navbar nav {
+    display: block;
+    float: right;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.Navbar nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.Navbar nav ul li{
+    list-style:none;
+}
+.Navbar nav ul li a{
+    display:block;
+    margin:10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #262626;
+}
+.Navbar nav ul li a.active,.Navbar nav ul li a:hover
+{
+    background: #069370;
+    color: white;
+    transition: 0.5s;
+}
+.Navbar header .menuToggle{
+    display: none;
+}
+@media (max-width:1200px){
+    .Navbar header
+    {
+        margin:20px
+    }
+}
+@media (max-width:1260px){
+    .Navbar header .menuToggle
+    {
+        display: block;
+        width:40px;
+        height: 40px;
+        margin: 10px;
+        margin-top: 15px;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+    }
+    .Navbar header .menuToggle:before{
+        content: '';
+        line-height: 40px;
+    }
+    .Navbar nav{
+        display: none;
+        width: 100%;
+    }
+    .Navbar nav ul{
+        display: block;
+    }
+    .Navbar nav ul li a{
+        margin: 0;
+    }
+}
+@media (max-width:500px){
+    header {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        top: -20px;
+        left: -20px;
+    }
+    .Navbar .logo {
+        line-height: 60px;
+        padding: 0 7px;
+    }
+    .Navbar .serchSec{
+        margin-top: 9px ;
+    }
+    .Navbar .Inputval{
+
+        width: 150px;
+
+    }
+    .Navbar header .menuToggle
+    {   
+        width:30px;
+        height: 40px;
+        margin: 5px;
+        margin-top: 12px;
+        font-size: 25px;
+    }
+}
