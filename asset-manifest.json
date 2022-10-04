@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/E-moji/static/css/main.f08705f5.css",
+    "main.js": "/E-moji/static/js/main.d2451389.js",
+    "static/js/787.5aa371d6.chunk.js": "/E-moji/static/js/787.5aa371d6.chunk.js",
+    "index.html": "/E-moji/index.html",
+    "main.f08705f5.css.map": "/E-moji/static/css/main.f08705f5.css.map",
+    "main.d2451389.js.map": "/E-moji/static/js/main.d2451389.js.map",
+    "787.5aa371d6.chunk.js.map": "/E-moji/static/js/787.5aa371d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f08705f5.css",
+    "static/js/main.d2451389.js"
+  ]
+}
