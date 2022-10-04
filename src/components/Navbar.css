@@ -83,14 +83,17 @@ header {
 .Navbar nav ul li{
     list-style:none;
 }
-.Navbar nav ul li a{
+.Navbar nav ul li button{
     display:block;
     margin:10px 0;
     padding: 10px 20px;
     text-decoration: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
     color: #262626;
 }
-.Navbar nav ul li a.active,.Navbar nav ul li a:hover
+.Navbar nav ul li button.active,.Navbar nav ul li button:hover
 {
     background: #069370;
     color: white;
@@ -130,8 +133,9 @@ header {
     .Navbar nav ul{
         display: block;
     }
-    .Navbar nav ul li a{
+    .Navbar nav ul li button{
         margin: 0;
+        width: 100%;
     }
 }
 @media (max-width:500px){
