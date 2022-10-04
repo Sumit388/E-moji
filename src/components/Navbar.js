@@ -25,7 +25,7 @@ const inputChange=()=>{
   return (
     <div className='Navbar'>
         <header>
-    <a href="\#" className='logo'>E-moji</a>
+    <a href="\" className='logo'>E-moji</a>
 
     <div className="serchSec"><input type="text" className='Inputval' onChange={inputChange} ref={input}/>
     <button className="searchIcon"><div ><FaSearch/></div></button></div>
@@ -35,15 +35,15 @@ const inputChange=()=>{
         {/* Calling changeCatagory on App.js to set the value of catagory state variable  */ }
         {/* Also changing the active state variable on clicking on li to show proper active tab */ }
         <ul>
-            <li><a href="\#" className={active==="All"?"active":""} onClick={()=>{prop.changeCatagory("general"); setActive("All");}}>All</a></li>
-            <li><a href="\#" className={active==="Smi"?"active":""} onClick={()=>{prop.changeCatagory("Smileys & Emotion"); setActive("Smi");} }>Smileys</a></li>
-            <li><a href="\#" className={active==="Peo"?"active":""} onClick={()=>{prop.changeCatagory("People & Body"); setActive("Peo");}}>People</a></li>
-            <li><a href="\#" className={active==="Ani"?"active":""} onClick={()=>{prop.changeCatagory("Animals & Nature"); setActive("Ani");}}>Animals</a></li>
-            <li><a href="\#" className={active==="Foo"?"active":""} onClick={()=>{prop.changeCatagory("Food & Drink"); setActive("Foo");}}>Food</a></li>
-            <li><a href="\#" className={active==="Tra"?"active":""} onClick={()=>{prop.changeCatagory("Travel & Places"); setActive("Tra");}}>Places</a></li>
-            <li><a href="\#" className={active==="Act"?"active":""} onClick={()=>{prop.changeCatagory("Activities"); setActive("Act");}}>Activities</a></li>
-            <li><a href="\#" className={active==="Obj"?"active":""} onClick={()=>{prop.changeCatagory("Objects"); setActive("Obj");}}>Objects</a></li>
-            <li><a href="\#" className={active==="oth"?"active":""} onClick={()=>{prop.changeCatagory("others"); setActive("oth");}}>Others</a></li>
+            <li><a href="\" className={active==="All"?"active":""} onClick={()=>{prop.changeCatagory("general"); setActive("All");}}>All</a></li>
+            <li><a href="\" className={active==="Smi"?"active":""} onClick={()=>{prop.changeCatagory("Smileys & Emotion"); setActive("Smi");} }>Smileys</a></li>
+            <li><a href="\" className={active==="Peo"?"active":""} onClick={()=>{prop.changeCatagory("People & Body"); setActive("Peo");}}>People</a></li>
+            <li><a href="\" className={active==="Ani"?"active":""} onClick={()=>{prop.changeCatagory("Animals & Nature"); setActive("Ani");}}>Animals</a></li>
+            <li><a href="\" className={active==="Foo"?"active":""} onClick={()=>{prop.changeCatagory("Food & Drink"); setActive("Foo");}}>Food</a></li>
+            <li><a href="\" className={active==="Tra"?"active":""} onClick={()=>{prop.changeCatagory("Travel & Places"); setActive("Tra");}}>Places</a></li>
+            <li><a href="\" className={active==="Act"?"active":""} onClick={()=>{prop.changeCatagory("Activities"); setActive("Act");}}>Activities</a></li>
+            <li><a href="\" className={active==="Obj"?"active":""} onClick={()=>{prop.changeCatagory("Objects"); setActive("Obj");}}>Objects</a></li>
+            <li><a href="\" className={active==="oth"?"active":""} onClick={()=>{prop.changeCatagory("others"); setActive("oth");}}>Others</a></li>
         </ul>
     </nav>
     <div className="clearFix"></div>
